@@ -23,4 +23,11 @@
 		and you have to make sure that the links in your app all start with <code>/#/</code>, or they
 		won't work. Beyond that, everything works exactly like a normal SvelteKit app.
 	</p>
+
+	<p>
+		To enable hash-based routing,
+		<a href="https://github.com/Rich-Harris/hash-based-routing/blob/main/svelte.config.js#L16-L18">
+			just add <code>router.type === 'hash'</code> to your <code>svelte.config.js</code>
+		</a>.
+	</p>
 </div>
